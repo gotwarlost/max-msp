@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -16,9 +16,9 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 1,
+		"gridonopen" : 2,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -44,7 +44,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 435.0, 199.0, 150.0, 20.0 ],
+					"patching_rect" : [ 420.0, 199.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 264.0, 51.0, 150.0, 20.0 ],
 					"text" : "Constrain voices"
@@ -71,7 +71,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 13.0, 199.0, 150.0, 33.0 ],
+					"patching_rect" : [ 60.0, 199.0, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 34.0, 51.0, 211.0, 20.0 ],
 					"text" : "Turn on to send notes via midi-voices "
@@ -81,26 +81,24 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-79",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 310.0, 343.0, 39.0, 32.0 ]
+					"patching_rect" : [ 316.5, 343.0, 39.0, 32.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-78",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 228.0, 343.0, 39.0, 32.0 ]
+					"patching_rect" : [ 223.5, 343.0, 39.0, 32.0 ]
 				}
 
 			}
@@ -130,7 +128,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -479,7 +477,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 421.0, 135.0, 29.5, 22.0 ],
+					"patching_rect" : [ 410.0, 135.0, 29.5, 22.0 ],
 					"text" : "1"
 				}
 
@@ -508,7 +506,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 421.0, 220.0, 50.0, 22.0 ],
+					"patching_rect" : [ 410.0, 221.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 264.0, 78.0, 50.0, 22.0 ]
 				}
@@ -533,7 +531,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 421.0, 60.0, 58.0, 22.0 ],
+					"patching_rect" : [ 395.75, 45.0, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -545,7 +543,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 340.0, 131.0, 35.0, 22.0 ],
+					"patching_rect" : [ 336.5, 195.0, 35.0, 22.0 ],
 					"text" : "2000"
 				}
 
@@ -557,7 +555,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 283.5, 171.0, 32.0, 22.0 ],
+					"patching_rect" : [ 290.0, 195.0, 32.0, 22.0 ],
 					"text" : "+ 67"
 				}
 
@@ -569,7 +567,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 260.0, 131.0, 66.0, 22.0 ],
+					"patching_rect" : [ 290.0, 131.0, 66.0, 22.0 ],
 					"text" : "random 60"
 				}
 
@@ -581,7 +579,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 237.0, 171.0, 29.5, 22.0 ],
+					"patching_rect" : [ 243.5, 195.0, 29.5, 22.0 ],
 					"text" : "+ 0"
 				}
 
@@ -592,7 +590,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 228.0, 511.0, 49.0, 22.0 ],
+					"patching_rect" : [ 223.5, 540.0, 49.0, 22.0 ],
 					"text" : "noteout"
 				}
 
@@ -621,7 +619,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 243.5, 226.0, 112.0, 22.0 ],
+					"patching_rect" : [ 243.5, 270.0, 112.0, 22.0 ],
 					"text" : "makenote"
 				}
 
@@ -644,6 +642,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 1 ],
+					"midpoints" : [ 419.5, 524.0, 248.0, 524.0 ],
 					"source" : [ "obj-2", 1 ]
 				}
 
@@ -651,6 +650,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
+					"midpoints" : [ 357.5, 515.0, 233.0, 515.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -686,6 +686,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
+					"midpoints" : [ 405.25, 120.0, 366.0, 120.0, 366.0, 180.0, 346.0, 180.0 ],
 					"order" : 1,
 					"source" : [ "obj-39", 0 ]
 				}
@@ -694,6 +695,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-64", 0 ],
+					"midpoints" : [ 405.25, 117.0, 419.5, 117.0 ],
 					"order" : 0,
 					"source" : [ "obj-39", 0 ]
 				}
@@ -702,6 +704,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
+					"midpoints" : [ 269.5, 117.0, 299.5, 117.0 ],
 					"order" : 0,
 					"source" : [ "obj-40", 0 ]
 				}
@@ -710,6 +713,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-68", 0 ],
+					"midpoints" : [ 269.5, 117.0, 156.5, 117.0 ],
 					"order" : 1,
 					"source" : [ "obj-40", 0 ]
 				}
@@ -739,6 +743,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
+					"midpoints" : [ 156.5, 165.0, 253.0, 165.0 ],
 					"source" : [ "obj-68", 0 ]
 				}
 
@@ -746,6 +751,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-78", 0 ],
+					"midpoints" : [ 122.5, 330.0, 233.0, 330.0 ],
 					"order" : 1,
 					"source" : [ "obj-69", 0 ]
 				}
@@ -754,6 +760,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-79", 0 ],
+					"midpoints" : [ 122.5, 330.0, 326.0, 330.0 ],
 					"order" : 0,
 					"source" : [ "obj-69", 0 ]
 				}
@@ -762,6 +769,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
+					"midpoints" : [ 253.0, 408.0, 357.5, 408.0 ],
 					"source" : [ "obj-78", 1 ]
 				}
 
@@ -776,6 +784,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
+					"midpoints" : [ 346.0, 408.0, 388.5, 408.0 ],
 					"source" : [ "obj-79", 1 ]
 				}
 
@@ -783,6 +792,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 1 ],
+					"midpoints" : [ 326.0, 495.0, 248.0, 495.0 ],
 					"source" : [ "obj-79", 0 ]
 				}
 
@@ -790,7 +800,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "midi-voices.js",
-				"bootpath" : "~/max-msp/lib/midi-voices",
+				"bootpath" : "~/projects/max-msp/lib/midi-voices",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1

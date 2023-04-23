@@ -798,7 +798,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 919.758928571428442, 658.0, 106.0, 22.0 ],
+					"patching_rect" : [ 918.007936507936392, 658.0, 106.0, 22.0 ],
 					"text" : "xfader-lfo-wrapper"
 				}
 
@@ -1266,6 +1266,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 8 ],
 							"parameter_initial_enable" : 1,
+							"parameter_invisible" : 1,
 							"parameter_longname" : "bands",
 							"parameter_mmax" : 10.0,
 							"parameter_mmin" : 1.0,
@@ -2515,7 +2516,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 5 ],
-					"midpoints" : [ 166.133928571428555, 919.0, 906.0, 919.0, 906.0, 645.0, 1016.258928571428442, 645.0 ],
+					"midpoints" : [ 166.133928571428555, 919.0, 906.0, 919.0, 906.0, 645.0, 1014.507936507936392, 645.0 ],
 					"order" : 0,
 					"source" : [ "obj-5", 0 ]
 				}
