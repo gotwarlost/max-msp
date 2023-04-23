@@ -1298,6 +1298,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
+							"parameter_invisible" : 2,
 							"parameter_longname" : "d9",
 							"parameter_shortname" : "20k",
 							"parameter_type" : 1,
@@ -1329,6 +1330,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
+							"parameter_invisible" : 2,
 							"parameter_longname" : "d8",
 							"parameter_shortname" : "10k",
 							"parameter_type" : 1,
@@ -1385,6 +1387,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
+							"parameter_invisible" : 2,
 							"parameter_longname" : "d7",
 							"parameter_shortname" : "20k",
 							"parameter_type" : 1,
@@ -1415,6 +1418,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
+							"parameter_invisible" : 2,
 							"parameter_longname" : "d5",
 							"parameter_shortname" : "5k",
 							"parameter_type" : 1,
@@ -1437,7 +1441,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"parameter_mappable" : 0,
 					"patching_rect" : [ 377.342261904761926, 848.0, 25.0, 36.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 457.464285714285722, 77.5, 25.0, 36.0 ],
@@ -1445,6 +1448,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
+							"parameter_invisible" : 2,
 							"parameter_longname" : "d3",
 							"parameter_shortname" : "1.3k",
 							"parameter_type" : 1,
@@ -1475,6 +1479,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
+							"parameter_invisible" : 2,
 							"parameter_longname" : "d1",
 							"parameter_shortname" : "313",
 							"parameter_type" : 1,
@@ -1505,6 +1510,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
+							"parameter_invisible" : 2,
 							"parameter_longname" : "d6",
 							"parameter_shortname" : "10k",
 							"parameter_type" : 1,
@@ -1535,6 +1541,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
+							"parameter_invisible" : 2,
 							"parameter_longname" : "d4",
 							"parameter_shortname" : "2.5k",
 							"parameter_type" : 1,
@@ -1565,6 +1572,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
+							"parameter_invisible" : 2,
 							"parameter_longname" : "d2",
 							"parameter_shortname" : "625",
 							"parameter_type" : 1,
@@ -1623,6 +1631,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
+							"parameter_invisible" : 2,
 							"parameter_longname" : "d0",
 							"parameter_shortname" : "156",
 							"parameter_type" : 1,
@@ -3182,56 +3191,56 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "browse-routing.maxpat",
-				"bootpath" : "~/projects/max-msp/m4l-devices/xfader",
+				"bootpath" : "~/projects/max-msp/m4l-devices/xfader/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "filter-gain.maxpat",
-				"bootpath" : "~/projects/max-msp/m4l-devices/xfader",
+				"bootpath" : "~/projects/max-msp/m4l-devices/xfader/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "multi-fader-bands.js",
-				"bootpath" : "~/projects/max-msp/m4l-devices/xfader",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/projects/max-msp/m4l-devices/xfader/code",
+				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "routing-objects.maxpat",
-				"bootpath" : "~/projects/max-msp/m4l-devices/xfader",
+				"bootpath" : "~/projects/max-msp/m4l-devices/xfader/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "xfader-lfo-wrapper.maxpat",
-				"bootpath" : "~/projects/max-msp/m4l-devices/xfader",
+				"bootpath" : "~/projects/max-msp/m4l-devices/xfader/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "xfader-lfo.maxpat",
-				"bootpath" : "~/projects/max-msp/m4l-devices/xfader",
+				"bootpath" : "~/projects/max-msp/m4l-devices/xfader/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "xfader-poly-gain.maxpat",
-				"bootpath" : "~/projects/max-msp/m4l-devices/xfader",
+				"bootpath" : "~/projects/max-msp/m4l-devices/xfader/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "xfader-spread.maxpat",
-				"bootpath" : "~/projects/max-msp/m4l-devices/xfader",
+				"bootpath" : "~/projects/max-msp/m4l-devices/xfader/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
